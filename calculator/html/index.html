@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="heading">CalculatoR</header>
+    <div class="mainBody">
+        <div class="calbody">
+        <input type="text" id="screen" placeholder="0" readonly>
+        <br>
+        <button id="clearbtn">C</button>
+        <button id="percentagebtn">%</button>
+        <button id="backspacebtn" onclick="deleteChar()"><i class="fa fa-trash"></i></button>
+        <button id="dividebtn">/</button>
+        <br>
+        <button id="sevenbtn">7</button>
+        <button id="eigthbtn">8</button>
+        <button id="ninebtn">9</button>
+        <button id="multiplybtn">X</button>
+        <br>
+        <button id="fourbtn">4</button>
+        <button id="fivebtn">5</button>
+        <button id="sixbtn">6</button>
+        <button id="subtractbtn">–</button>
+        <br>
+        <button id="onebtn">1</button>
+        <button id="twobtn">2</button>
+        <button id="threebtn">3</button>
+        <button id="additionbtn">+</button>
+        <br>
+        <button id="zerobtn">0</button>
+        <button id="decimalbtn">.</button>
+        <button id="equalbtn">=</button>
+        </div>
+    </div>
+</body>
+<script src="../js/main.js"></script>
+</html>
